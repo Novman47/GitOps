@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Please subscribe, like, and comment on this video, TY!!!'
+    return 'Triggering deployment from git webhook and in sysn with Argo-CD!!!'
